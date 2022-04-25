@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+.h1{
+    font-family: "Papyrus", Fantasy;
+    font-style: oblique;
+    font-weight: lighter;
+}
+.h4{
+    color: red;
+    font-weight: bolder;
+}
+#camera{
+    height: 500px;
+    width: 500px;
+    border-style: dotted;
+    border-color: red blue green yellow;
+}
+img{
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px 10px goldenrod inset;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+img:hover{
+border-radius: 20%;
+}
